@@ -526,7 +526,7 @@ class CarController extends Controller
 
         $targa = substr($request->autoid, 0, 7);
         $cf_venditore = substr($request->autoid, 9);
-        dd($targa, $cf_venditore);
+        //dd($targa, $cf_venditore);
 
         // aggiornamento record venditore
 
